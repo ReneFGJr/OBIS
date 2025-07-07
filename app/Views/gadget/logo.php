@@ -2,7 +2,8 @@
       <div class="overlay"></div>
       <div class="logo-container">
           <h1>OBIS</h1>
-          <p>Observatório do Vale do Rio Doce</p>
+          <p>Observatório Inteligente da Sociobiodiversidade
+          <br> da bacia hidrográfica do Rio Doce</p>
       </div>
   </div>
 
@@ -39,7 +40,7 @@
 
       .logo-container h1 {
           font-family: 'Montserrat', sans-serif;
-          font-size: 6rem;
+          font-size: 10rem;
           letter-spacing: 2px;
           margin-bottom: 0.5rem;
           color: #ffffff;

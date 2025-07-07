@@ -6,8 +6,8 @@ class Home extends BaseController
 {
     public function cab($data=[])
     {
-        $data['title'] = 'Home';
-        $data['description'] = 'Welcome to the home page';
+        $data['title'] = 'Observatório Inteligente da Sociobiodiversidade (OBIS)';
+        $data['description'] = 'Welcome to the Observatório Inteligente da Sociobiodiversidade (OBIS)';
         $sx = view('header/header', $data);
         $sx .= view('header/navbar', $data);
         return $sx;
