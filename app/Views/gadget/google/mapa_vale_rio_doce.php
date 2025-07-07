@@ -52,7 +52,7 @@
         };
 
         // Criar o mapa centrado no Brasil
-        var map = L.map('map').setView([-14.2350, -51.9253], 4);
+        var map = L.map('map').setView([-20.2350, -45.9253], 6);
 
         // Adicionar camada de mapa base
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
