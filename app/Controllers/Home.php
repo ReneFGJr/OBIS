@@ -20,7 +20,9 @@ class Home extends BaseController
             'title' => 'Parallax Effect',
             'description' => 'This is a parallax effect example using Bootstrap and CodeIgniter 4.'
         ]);
+        $sx .= view('gadget/google/mapa_vale_rio_doce');
         $sx .= view('gadget/logo_png');
+
 
         $sx .= view('header/footer');
         return $sx;
